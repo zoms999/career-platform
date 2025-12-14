@@ -15,7 +15,9 @@ import {
   UserSearch, // Added for CRM
   ShoppingCart, // Added for updated 주문 관리 icon
   Building2,
-  Megaphone
+  Megaphone,
+  BarChart3,
+  ShieldAlert
 } from "lucide-react";
 
 const sidebarItems = [
@@ -39,6 +41,21 @@ const sidebarItems = [
     label: "마케팅 자동화",
     href: "/admin/marketing/automation",
     icon: Megaphone, // Imported below
+  },
+  {
+    label: "콘텐츠 관리",
+    href: "/admin/products",
+    icon: ShoppingBag,
+  },
+  {
+    label: "통계 및 정산",
+    href: "/admin/statistics",
+    icon: BarChart3,
+  },
+  {
+    label: "보안 / 로그",
+    href: "/admin/logs",
+    icon: ShieldAlert,
   },
   {
     label: "설정",
